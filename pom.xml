@@ -1033,11 +1033,6 @@
         <url>http://review.opencloudengine.org/project/FLAMINGO/tags/flamingo-1.0.1-GA</url>
     </scm>
 
-    <ciManagement>
-        <system>Atlassian Bamboo</system>
-        <url>http://build.opencloudengine.org/browse/FLAMINGO</url>
-    </ciManagement>
-
     <distributionManagement>
         <repository>
             <id>releases</id>
@@ -1049,14 +1044,9 @@
         </snapshotRepository>
     </distributionManagement>
 
-    <issueManagement>
-        <system>Atlassian JIRA</system>
-        <url>http://jira.opencloudengine.org</url>
-    </issueManagement>
-
     <organization>
-        <name>Cloudine</name>
-        <url>http://www.cloudine.co.kr</url>
+        <name>Ankus community</name>
+        <url>http://openankus.org</url>
     </organization>
 
     <licenses>
@@ -1067,17 +1057,4 @@
             <comments>A business-friendly OSS license</comments>
         </license>
     </licenses>
-
-    <developers>
-        <developer>
-            <id>fharenheit</id>
-            <name>Edward KIM</name>
-            <roles>
-                <role>Manager</role>
-                <role>Commiter</role>
-            </roles>
-            <url>http://www.facebook.com/JBossUserGroup</url>
-            <email>fharenheit@openflamingo.org</email>
-        </developer>
-    </developers>
 </project>
