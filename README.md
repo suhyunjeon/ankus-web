@@ -51,7 +51,7 @@ http://www.youtube.com/watch?v=UOS2LM0-G_I
 
 ## License
 Ankus Workflow Engine module : Apache License 2.0  
-Ankus Web Services module : GPL V2  
+Ankus Web Services module : GPL v3
 
 ## For Korean
 Ankus-Web 은 웹 기반의 Hadoop MapReduce 환경에서 운용할 수 있는 빅데이터 분석 도구입니다.   
