@@ -62,6 +62,25 @@ Ext.define('Flamingo.view.designer.property.ankus.ALG_ANKUS_CF_USER_RECOMMEND', 
                     title: MSG.DESIGNER_TITLE_INPUT_PATH,
                     height: 100
                 },
+                // Ankus MapReduce가 동작하는데 필요한 유사도 결과 파일의 경로를 지정한다. 이 경로는 1개 지정가능하다.
+                {
+                    xtype: 'fieldcontainer',
+                    fieldLabel: 'Similarity Input Path',
+                    defaults: {
+                        hideLabel: true,
+                        margin: "5 0 0 0"  // Same as CSS ordering (top, right, bottom, left)
+                    },
+                    layout: 'hbox',
+                    items: [
+                        {
+                            xtype: '_browserField',
+                            name: 'similarDataInput',
+                            allowBlank: false,
+                            readOnly: false,
+                            flex: 1
+                        }
+                    ]
+                },
                 {
                     xtype: 'fieldcontainer',
                     fieldLabel: MSG.DESIGNER_RECOMMEND_STANDARD,
