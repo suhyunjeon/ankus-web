@@ -508,7 +508,7 @@ Ext.define('Flamingo.view.designer.property.ankus.ALG_ANKUS_NUMERIC_STATISTICS',
                     xtype: 'textfield',
                     name: 'jar',
                     fieldLabel: MSG.DESIGNER_MR_JAR,
-                    value: 'org.ankus:ankus-core:0.1',
+                    value: 'org.ankus:ankus-core:0.2',
                     disabledCls: 'disabled-plain',
                     allowBlank: false
                 },
